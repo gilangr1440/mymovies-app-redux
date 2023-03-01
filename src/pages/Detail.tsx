@@ -57,9 +57,6 @@ const Detail = () => {
               <li>Language: {data.original_language}</li>
               <li>Overview: {data.overview}</li>
             </ul>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Watch</button>
-            </div>
           </div>
         </div>
       </div>

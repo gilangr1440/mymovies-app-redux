@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 interface Movies {
-  id: string;
-  title: string;
-  image: string;
+  id?: any;
+  title?: string;
+  image?: string;
   navigate?: any;
   params?: any;
   labelButton?: string;

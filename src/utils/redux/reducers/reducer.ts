@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { MovieType } from "../../movie";
+import { MovieType } from "../../types/movie";
 
 interface StateType {
   favorites: MovieType[];

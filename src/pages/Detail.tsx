@@ -19,7 +19,7 @@ const Detail = () => {
 
   function getMovie() {
     axios
-      .get(`https://api.themoviedb.org/3/movie/${id_movie}?api_key=${import.meta.env.VITE_API_KEY}&language=en-US&append_to_response=videos`)
+      .get(`https://api.themoviedb.org/3/movie/${id_movie}?api_key=c38ad3ae2d784446ea3aabf37f6b5e58&language=en-US&append_to_response=videos`)
       .then((data) => {
         // const data = data.data;
         setData(data.data);

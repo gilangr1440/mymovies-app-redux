@@ -15,7 +15,7 @@ const Homepage = () => {
 
   function getMovies(page: number) {
     axios
-      .get(`https://api.themoviedb.org/3/movie/now_playing?api_key=${import.meta.env.VITE_API_KEY}&language=en-US&page=${page}`)
+      .get(`https://api.themoviedb.org/3/movie/now_playing?api_key=c38ad3ae2d784446ea3aabf37f6b5e58&language=en-US&page=${page}`)
       .then((data) => {
         const { results, total_pages } = data.data; // destructuring
         setDatas(results);
